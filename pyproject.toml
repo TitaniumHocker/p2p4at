@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "p2p4at"
+version = "0.1.0"
+description = "Simple P2P chat in Python"
+authors = ["Ivan Fedorov <i@ifedorov.me>"]
+license = "GPL3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
